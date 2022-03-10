@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wutian.maxy.nested.webrecycler.NestedScrollingParentContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nested_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wutian.maxy.nested.webrecycler.NestedScrollingWebWrapper
+        android:id="@+id/nested_web_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="nested_scroll_webview" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="nested_scroll_recyclerview" />
+</com.wutian.maxy.nested.webrecycler.NestedScrollingParentContainer>

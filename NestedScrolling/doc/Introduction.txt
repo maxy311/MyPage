@@ -1,0 +1,2 @@
+com.wutian.maxy.nested.rvr == RecyclerView + ViewPager + RecyclerView
+com.wutian.maxy.nested.webrecycler   == WebView + RecyclerView;
